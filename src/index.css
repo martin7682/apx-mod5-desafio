@@ -1,0 +1,18 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.root {
+    background: url(./images/wallpaper.svg);
+}
+
+:root {
+    --fondo-ganaste: #888949;
+    --fondo-perdiste: #894949;
+    --fondo-empate: gray;
+}

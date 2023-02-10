@@ -1,0 +1,24 @@
+{
+  "name": "desafio-dwf-5-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "@parcel/transformer-image": "^2.8.2",
+    "@types/node": "^18.11.18",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.2"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "console-browserify": "^1.2.0",
+    "process": "^0.11.10",
+    "timers-browserify": "^2.0.11",
+    "util": "^0.12.3"
+  }
+}
+
