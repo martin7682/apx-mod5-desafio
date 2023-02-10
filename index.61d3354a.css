@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.root {
+  background: url("wallpaper.65f6c042.svg");
+}
+
+:root {
+  --fondo-ganaste: #888949;
+  --fondo-perdiste: #894949;
+  --fondo-empate: gray;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
