@@ -1,11 +1,12 @@
 {
   "name": "desafio-dwf-5-1",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html",
+    "deploy": "gh-pages -d ./dist",
+    "build-and-deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@parcel/transformer-image": "^2.8.2",
