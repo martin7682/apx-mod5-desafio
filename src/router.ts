@@ -60,7 +60,7 @@ export function initRouter(container: Element){
         }
     }
     if (location.host.includes("github.io")) {
-        goTo("/welcome");
+        goTo("/wellcome");
     } else if (location.pathname == "/"){
         goTo("/wellcome");
     } else {
