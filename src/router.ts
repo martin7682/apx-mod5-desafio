@@ -6,7 +6,7 @@ import { perder } from "./pages/resutls/perdiste";
 import { empate } from "./pages/resutls/empate";
 
 
-const BASE_PATH = "/desafio-dwf-5"
+const BASE_PATH = "/apx-mod5-desafio"
 
 const routes = [
     {
